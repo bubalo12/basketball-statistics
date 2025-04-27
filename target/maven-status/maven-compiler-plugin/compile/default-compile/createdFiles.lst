@@ -1,0 +1,8 @@
+controller\PlayerStatisticController.class
+model\Team.class
+model\Game.class
+com\bubalo\basketball_statistics\Application.class
+model\PlayerStatistic.class
+service\PlayerStatisticService.class
+model\Player.class
+com\bubalo\basketball_statistics\App.class

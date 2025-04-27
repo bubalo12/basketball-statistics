@@ -1,0 +1,5 @@
+# Created at 2025-04-26T15:29:21.177
+Boot Manifest-JAR contains absolute paths in classpath 'G:\FTN Java\Eclipse\basketball-statistics\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+

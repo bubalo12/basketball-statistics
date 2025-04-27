@@ -17,6 +17,26 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
 		<java.version>17</java.version> <!-- promenite na 21 ako koristite Javu 21 -->
 	</properties>
 	<dependencies>
+		<!-- Spring Boot Starter Data JPA (Za rad sa bazom podataka) -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-jpa</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>8.0.33</version>
+		</dependency>
+
+		
+		<!-- Spring Boot Starter Validation (Ako želite da dodate validaciju) -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-validation</artifactId>
+		</dependency>
+
+
 		<!-- Spring Web (REST API) -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -58,7 +78,23 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+			<groupId>org.junit.jupiter</groupId>
+			<artifactId>junit-jupiter-api</artifactId>
+			<version>5.8.2</version>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.junit.jupiter</groupId>
+			<artifactId>junit-jupiter-engine</artifactId>
+			<version>5.8.2</version>
+			<scope>test</scope>
+		</dependency>
+
 	</dependencies>
+
+
 	<build>
 		<plugins>
 			<plugin>
